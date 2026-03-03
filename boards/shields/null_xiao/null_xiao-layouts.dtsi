@@ -21,6 +21,6 @@
         compatible = "zmk,physical-layout";
         display-name = "XIAO Pinout";
 
-        // Map key positions to the XIAO pinout.
-        keys = <>;
+        keys = <&key_physical_attrs 100 100    0    0      0    0    0>;
     };
+};

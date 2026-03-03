@@ -20,13 +20,13 @@
         wakeup-source;
         debounce-press-ms = <10>;
         debounce-release-ms = <10>;
-        input-gpios = <>;
+        input-gpios = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 
     transform0: keymap_transform {
         compatible = "zmk,matrix-transform";
-        columns = <0>;
-        rows = <0>;
-        map = <>;
+        columns = <1>;
+        rows = <1>;
+        map = <RC(0,0)>;
     };
 };
