@@ -1,0 +1,26 @@
+/*
+ * Copyright (c) 2025 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <physical_layouts.dtsi>
+
+/ {
+    tester_position_map {
+        compatible = "zmk,physical-layout-position-map";
+        complete;
+
+        pinout_map: pinout_positions {
+            physical-layout = <&physical_layout0>;
+            positions = <0>;
+        };
+    };
+
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "XIAO Pinout";
+
+        // Map key positions to the XIAO pinout.
+        keys = <>;
+    };

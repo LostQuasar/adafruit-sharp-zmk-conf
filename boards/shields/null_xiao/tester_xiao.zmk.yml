@@ -1,0 +1,6 @@
+file_format: "1"
+id: null_xiao
+name: NullXiao
+type: shield
+url: https://zmk.dev/docs/troubleshooting/hardware-issues
+requires: [seeed_xiao]
